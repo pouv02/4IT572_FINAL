@@ -102,7 +102,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
-                
+
       - name: Install ansible and boto
         run: |
           pip install ansible==4 boto boto3
@@ -117,9 +117,9 @@ jobs:
           # Optional, SSH private key
           key: ${{secrets.SSH_PRIVATE_KEY}}
           # Optional, literal inventory file contents
-          inventory: |
-            [all]
-            localhost
+          # inventory: |
+            #[all]
+            # localhost
           # Optional, encrypted vault password
           # vault_password: ${{secrets.VAULT_PASSWORD}}
           # Optional, additional flags to pass to ansible-playbook
