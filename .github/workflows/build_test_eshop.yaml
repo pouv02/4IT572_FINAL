@@ -107,7 +107,7 @@ jobs:
         run: |
           pip install ansible==4 boto boto3
       
-      - name: Deploy to ec2
+      - name: Deploy to AWS EC2
         uses: dawidd6/action-ansible-playbook@v2.5.0
         with:
           # Required, playbook filepath
