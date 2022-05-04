@@ -7,7 +7,7 @@
 
 #### Requirements
 
-- Node.js
+- Node.jss
 - NPM
 
 ```javascript
