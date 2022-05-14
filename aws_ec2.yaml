@@ -9,7 +9,7 @@
         image: ami-0022f774911c1d690
         region: us-east-1
         key_name: pouv02_devops
-        vpc_subnet_id: subnet-026d42828a6311e51
+        vpc_subnet_id: subnet-037354cf4c3528d1b
         assign_public_ip: yes
         wait: yes
         count: 1
